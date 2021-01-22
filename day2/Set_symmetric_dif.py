@@ -1,0 +1,6 @@
+A=int(input())
+store=set(input().split())
+B=int(input())
+store2=set(input().split())
+store3=set.symmetric_difference(store,store2)
+print (len(store3))
